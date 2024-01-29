@@ -1,5 +1,10 @@
 # chat-server
 
+Created using the Quarkus CLI:
+```bash
+quarkus create app --maven --java=21 --wrapper --code --dockerfiles --name=chat-server --package-name com.mycodefu --extensions="io.quarkus:quarkus-websockets" com.mycodefu:chat-server
+```
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
